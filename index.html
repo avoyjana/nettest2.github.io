@@ -1,0 +1,1145 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Full Length Test 1</title>
+        <style>
+          body {
+            font-family: Arial, sans-serif;
+          }
+          section {
+            margin-bottom: 20px;
+          }
+          h1, h2, h3, h4 {
+            text-align: center;
+          }
+          table {
+            width: 100%;
+            border-collapse: collapse;
+          }
+          th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+          }
+          th {
+            background-color: #f2f2f2;
+          }
+          .performanceSummary {
+            margin-top: 10px;
+        }
+
+        #timer {
+            position: fixed;
+            top: 0;
+            background-color: white;
+            padding: 10px;
+            z-index: 9999;
+        }
+        .exam-details {
+        display: flex;
+        justify-content: space-between;
+    }
+        </style>
+      </head>
+<body>
+    <h1>BE FREE, NOTHING YOUR DATA WILL BE SAVED IN OUR SITE<h1>
+    <h2>Full Length Test – 01</h2>
+    <h3>15-07-2024</h3>
+    <h4>PHYSICAL SCIENCES</h4>
+    <p class="exam-details">Time: 3 Hours<span>Maximum Marks: 200</span></p>
+  
+    <section>
+      <h2>Part 'A'</h2>
+      <p>
+        This part shall carry 20 questions pertaining to General Aptitude with emphasis,
+        On logical reasoning, graphical, analysis, analytical and numerical ability, quantitative
+        comparison, series formation, puzzles etc. The candidates shall be required to answer any
+        15 questions. Each question shall be of two marks. The total marks allocated to this
+        section shall be 30 out of 200.
+      </p>
+    </section>
+  
+    <section>
+      <h2>Part 'B'</h2>
+      <p>
+        This part shall contain 25 Multiple Choice Questions (MCQs) generally
+        covering the topics given in the Part ‘A’ (CORE) of syllabus. All questions are
+        compulsory. Each question shall be of 3.5 Marks. The total marks allocated to this
+        section shall be 70 out of 200.
+      </p>
+    </section>
+  
+    <section>
+      <h2>Part 'C'</h2>
+      <p>
+        This part shall contain 30 questions from Part ‘B’(Advanced) that are designed
+        to test a candidate's knowledge of scientific concepts and/or application of the scientific
+        concepts. The questions shall be of analytical nature where a candidate is expected to
+        apply the scientific knowledge to arrive at the solution to the given scientific problem. A
+        candidate shall be required to answer any 20. Each question shall be of 5 Marks. The total
+        marks allocated to this section shall be 100 out of 200.
+      </p>
+    </section>
+  
+    <section>
+      <h2>Marking Scheme</h2>
+      <table>
+        <tr>
+          <th>Section</th>
+          <th>Total Questions</th>
+          <th>Total allocated Questions</th>
+          <th>Marks for each correct answer</th>
+          <th>Total allocated Marks</th>
+          <th>Negative Marking</th>
+        </tr>
+        <tr>
+          <td>Part 'A'</td>
+          <td>20</td>
+          <td>First 15</td>
+          <td>2.0</td>
+          <td>30</td>
+          <td>@25% for each wrong answer</td>
+        </tr>
+        <tr>
+          <td>Part 'B'</td>
+          <td>25</td>
+          <td>First 20</td>
+          <td>3.5</td>
+          <td>70</td>
+          <td>@25% for each wrong answer</td>
+        </tr>
+        <tr>
+          <td>Part 'C'</td>
+          <td>30</td>
+          <td>First 20</td>
+          <td>5.0</td>
+          <td>100</td>
+          <td>@25% for each wrong answer</td>
+        </tr>
+      </table>
+    </section>
+  
+</body>
+</body>
+    <div id="timer"></div> <!-- Display timer -->
+    <p style="color: red;">You can only see your score after "Time up", i.e., within 3 hours of visiting the site.</p>
+    <p style="color: red;">After the exam is finished, you can see your performance and answer key below each question.</p>
+    <p style="color: red;">To leave the current test and give the test again now, just refresh the web page.</p>
+    <h2>Best of Luck, Start Here !</h2>
+    <form id="quizForm">
+        <ol>
+            <h3>PART A</h3>
+            <p>ANSWER ANY 15 QUESTIONS</p>
+            <li>
+                <h5>Question 1</h5>
+                <img src="question1.jpg" alt="Image for Question 1"><br>
+                <input type="radio" name="question1" value="a">a) Option a<br>
+                <input type="radio" name="question1" value="b">b) Option b<br>
+                <input type="radio" name="question1" value="c">c) Option c<br>
+                <input type="radio" name="question1" value="d">d) Option d<br>
+                <input type="radio" name="question1" value="" class="clearSelection">Clear Selection<br> <!-- Option for clearing selection -->
+                <div class="performanceSummary" id="question1Performance"></div> <!-- Div for displaying performance summary -->
+            </li>
+            <li>
+                <h5>Question 2</h5>
+                <img src="question2.jpg" alt="Image for Question 2"><br>
+                <input type="radio" name="question2" value="a">a) Option a<br>
+                <input type="radio" name="question2" value="b">b) Option b<br>
+                <input type="radio" name="question2" value="c">c) Option c<br>
+                <input type="radio" name="question2" value="d">d) Option d<br>
+                <input type="radio" name="question2" value="" class="clearSelection">Clear Selection<br> <!-- Option for clearing selection -->
+                <div class="performanceSummary" id="question2Performance"></div> <!-- Div for displaying performance summary -->
+            </li>
+            <li>
+                <h5>Question 3</h5>
+                <img src="question3.jpg" alt="Image for Question 3"><br>
+                <input type="radio" name="question2" value="a">a) Option a<br>
+                <input type="radio" name="question2" value="b">b) Option b<br>
+                <input type="radio" name="question2" value="c">c) Option c<br>
+                <input type="radio" name="question2" value="d">d) Option d<br>
+                <input type="radio" name="question2" value="" class="clearSelection">Clear Selection<br> <!-- Option for clearing selection -->
+                <div class="performanceSummary" id="question3Performance"></div> <!-- Div for displaying performance summary -->
+            </li>
+            <li>
+                <h5>Question 4</h5>
+                <img src="question4.jpg" alt="Image for Question 4"><br>
+                <input type="radio" name="question2" value="a">a) Option a<br>
+                <input type="radio" name="question2" value="b">b) Option b<br>
+                <input type="radio" name="question2" value="c">c) Option c<br>
+                <input type="radio" name="question2" value="d">d) Option d<br>
+                <input type="radio" name="question2" value="" class="clearSelection">Clear Selection<br> <!-- Option for clearing selection -->
+                <div class="performanceSummary" id="question4Performance"></div> <!-- Div for displaying performance summary -->
+            </li>
+            <li>
+                <h5>Question 5</h5>
+                <img src="question5.jpg" alt="Image for Question 5"><br>
+                <input type="radio" name="question2" value="a">a) Option a<br>
+                <input type="radio" name="question2" value="b">b) Option b<br>
+                <input type="radio" name="question2" value="c">c) Option c<br>
+                <input type="radio" name="question2" value="d">d) Option d<br>
+                <input type="radio" name="question2" value="" class="clearSelection">Clear Selection<br> <!-- Option for clearing selection -->
+                <div class="performanceSummary" id="question5Performance"></div> <!-- Div for displaying performance summary -->
+            </li>
+            <li>
+                <h5>Question 6</h5>
+                <img src="question6.jpg" alt="Image for Question 6"><br>
+                <input type="radio" name="question2" value="a">a) Option a<br>
+                <input type="radio" name="question2" value="b">b) Option b<br>
+                <input type="radio" name="question2" value="c">c) Option c<br>
+                <input type="radio" name="question2" value="d">d) Option d<br>
+                <input type="radio" name="question2" value="" class="clearSelection">Clear Selection<br> <!-- Option for clearing selection -->
+                <div class="performanceSummary" id="question6Performance"></div> <!-- Div for displaying performance summary -->
+            </li>
+            <li>
+                <h5>Question 7</h5>
+                <img src="question7.jpg" alt="Image for Question 7"><br>
+                <input type="radio" name="question2" value="a">a) Option a<br>
+                <input type="radio" name="question2" value="b">b) Option b<br>
+                <input type="radio" name="question2" value="c">c) Option c<br>
+                <input type="radio" name="question2" value="d">d) Option d<br>
+                <input type="radio" name="question2" value="" class="clearSelection">Clear Selection<br> <!-- Option for clearing selection -->
+                <div class="performanceSummary" id="question7Performance"></div> <!-- Div for displaying performance summary -->
+            </li>
+            <li>
+                <h5>Question 8</h5>
+                <img src="question8.jpg" alt="Image for Question 8"><br>
+                <input type="radio" name="question2" value="a">a) Option a<br>
+                <input type="radio" name="question2" value="b">b) Option b<br>
+                <input type="radio" name="question2" value="c">c) Option c<br>
+                <input type="radio" name="question2" value="d">d) Option d<br>
+                <input type="radio" name="question2" value="" class="clearSelection">Clear Selection<br> <!-- Option for clearing selection -->
+                <div class="performanceSummary" id="question8Performance"></div> <!-- Div for displaying performance summary -->
+            </li>
+            <li>
+                <h5>Question 9</h5>
+                <img src="question9.jpg" alt="Image for Question 9"><br>
+                <input type="radio" name="question2" value="a">a) Option a<br>
+                <input type="radio" name="question2" value="b">b) Option b<br>
+                <input type="radio" name="question2" value="c">c) Option c<br>
+                <input type="radio" name="question2" value="d">d) Option d<br>
+                <input type="radio" name="question2" value="" class="clearSelection">Clear Selection<br> <!-- Option for clearing selection -->
+                <div class="performanceSummary" id="question9Performance"></div> <!-- Div for displaying performance summary -->
+            </li>
+            <li>
+                <h5>Question 10</h5>
+                <img src="question10.jpg" alt="Image for Question 10"><br>
+                <input type="radio" name="question2" value="a">a) Option a<br>
+                <input type="radio" name="question2" value="b">b) Option b<br>
+                <input type="radio" name="question2" value="c">c) Option c<br>
+                <input type="radio" name="question2" value="d">d) Option d<br>
+                <input type="radio" name="question2" value="" class="clearSelection">Clear Selection<br> <!-- Option for clearing selection -->
+                <div class="performanceSummary" id="question10Performance"></div> <!-- Div for displaying performance summary -->
+            </li>
+            <li>
+                <h5>Question 11</h5>
+                <img src="question11.jpg" alt="Image for Question 11"><br>
+                <input type="radio" name="question2" value="a">a) Option a<br>
+                <input type="radio" name="question2" value="b">b) Option b<br>
+                <input type="radio" name="question2" value="c">c) Option c<br>
+                <input type="radio" name="question2" value="d">d) Option d<br>
+                <input type="radio" name="question2" value="" class="clearSelection">Clear Selection<br> <!-- Option for clearing selection -->
+                <div class="performanceSummary" id="question11Performance"></div> <!-- Div for displaying performance summary -->
+            </li>
+            <li>
+                <h5>Question 12</h5>
+                <img src="question12.jpg" alt="Image for Question 12"><br>
+                <input type="radio" name="question2" value="a">a) Option a<br>
+                <input type="radio" name="question2" value="b">b) Option b<br>
+                <input type="radio" name="question2" value="c">c) Option c<br>
+                <input type="radio" name="question2" value="d">d) Option d<br>
+                <input type="radio" name="question2" value="" class="clearSelection">Clear Selection<br> <!-- Option for clearing selection -->
+                <div class="performanceSummary" id="question12Performance"></div> <!-- Div for displaying performance summary -->
+            </li>
+            <li>
+                <h5>Question 13</h5>
+                <img src="question13.jpg" alt="Image for Question 13"><br>
+                <input type="radio" name="question2" value="a">a) Option a<br>
+                <input type="radio" name="question2" value="b">b) Option b<br>
+                <input type="radio" name="question2" value="c">c) Option c<br>
+                <input type="radio" name="question2" value="d">d) Option d<br>
+                <input type="radio" name="question2" value="" class="clearSelection">Clear Selection<br> <!-- Option for clearing selection -->
+                <div class="performanceSummary" id="question13Performance"></div> <!-- Div for displaying performance summary -->
+            </li>
+            <li>
+                <h5>Question 14</h5>
+                <img src="question14.jpg" alt="Image for Question 14"><br>
+                <input type="radio" name="question2" value="a">a) Option a<br>
+                <input type="radio" name="question2" value="b">b) Option b<br>
+                <input type="radio" name="question2" value="c">c) Option c<br>
+                <input type="radio" name="question2" value="d">d) Option d<br>
+                <input type="radio" name="question2" value="" class="clearSelection">Clear Selection<br> <!-- Option for clearing selection -->
+                <div class="performanceSummary" id="question14Performance"></div> <!-- Div for displaying performance summary -->
+            </li>
+            <li>
+                <h5>Question 15</h5>
+                <img src="question15.jpg" alt="Image for Question 15"><br>
+                <input type="radio" name="question2" value="a">a) Option a<br>
+                <input type="radio" name="question2" value="b">b) Option b<br>
+                <input type="radio" name="question2" value="c">c) Option c<br>
+                <input type="radio" name="question2" value="d">d) Option d<br>
+                <input type="radio" name="question2" value="" class="clearSelection">Clear Selection<br> <!-- Option for clearing selection -->
+                <div class="performanceSummary" id="question15Performance"></div> <!-- Div for displaying performance summary -->
+            </li>
+            <li>
+                <h5>Question 16</h5>
+                <img src="question16.jpg" alt="Image for Question 16"><br>
+                <input type="radio" name="question2" value="a">a) Option a<br>
+                <input type="radio" name="question2" value="b">b) Option b<br>
+                <input type="radio" name="question2" value="c">c) Option c<br>
+                <input type="radio" name="question2" value="d">d) Option d<br>
+                <input type="radio" name="question2" value="" class="clearSelection">Clear Selection<br> <!-- Option for clearing selection -->
+                <div class="performanceSummary" id="question16Performance"></div> <!-- Div for displaying performance summary -->
+            </li>
+            <li>
+                <h5>Question 17</h5>
+                <img src="question17.jpg" alt="Image for Question 17"><br>
+                <input type="radio" name="question2" value="a">a) Option a<br>
+                <input type="radio" name="question2" value="b">b) Option b<br>
+                <input type="radio" name="question2" value="c">c) Option c<br>
+                <input type="radio" name="question2" value="d">d) Option d<br>
+                <input type="radio" name="question2" value="" class="clearSelection">Clear Selection<br> <!-- Option for clearing selection -->
+                <div class="performanceSummary" id="question17Performance"></div> <!-- Div for displaying performance summary -->
+            </li>
+            <li>
+                <h5>Question 18</h5>
+                <img src="question18.jpg" alt="Image for Question 18"><br>
+                <input type="radio" name="question2" value="a">a) Option a<br>
+                <input type="radio" name="question2" value="b">b) Option b<br>
+                <input type="radio" name="question2" value="c">c) Option c<br>
+                <input type="radio" name="question2" value="d">d) Option d<br>
+                <input type="radio" name="question2" value="" class="clearSelection">Clear Selection<br> <!-- Option for clearing selection -->
+                <div class="performanceSummary" id="question18Performance"></div> <!-- Div for displaying performance summary -->
+            </li>
+            <li>
+                <h5>Question 19</h5>
+                <img src="question19.jpg" alt="Image for Question 19"><br>
+                <input type="radio" name="question2" value="a">a) Option a<br>
+                <input type="radio" name="question2" value="b">b) Option b<br>
+                <input type="radio" name="question2" value="c">c) Option c<br>
+                <input type="radio" name="question2" value="d">d) Option d<br>
+                <input type="radio" name="question2" value="" class="clearSelection">Clear Selection<br> <!-- Option for clearing selection -->
+                <div class="performanceSummary" id="question19Performance"></div> <!-- Div for displaying performance summary -->
+            </li>
+            <li>
+                <h5>Question 20</h5>
+                <img src="question20.jpg" alt="Image for Question 20"><br>
+                <input type="radio" name="question2" value="a">a) Option a<br>
+                <input type="radio" name="question2" value="b">b) Option b<br>
+                <input type="radio" name="question2" value="c">c) Option c<br>
+                <input type="radio" name="question2" value="d">d) Option d<br>
+                <input type="radio" name="question2" value="" class="clearSelection">Clear Selection<br> <!-- Option for clearing selection -->
+                <div class="performanceSummary" id="question20Performance"></div> <!-- Div for displaying performance summary -->
+            </li>
+            <h3>PART B</h3>
+            <li>
+                <h5>Question 21</h5>
+                <img src="question21.jpg" alt="Image for Question 21"><br>
+                <input type="radio" name="question2" value="a">a) Option a<br>
+                <input type="radio" name="question2" value="b">b) Option b<br>
+                <input type="radio" name="question2" value="c">c) Option c<br>
+                <input type="radio" name="question2" value="d">d) Option d<br>
+                <input type="radio" name="question2" value="" class="clearSelection">Clear Selection<br> <!-- Option for clearing selection -->
+                <div class="performanceSummary" id="question21Performance"></div> <!-- Div for displaying performance summary -->
+            </li>
+            <li>
+                <h5>Question 22</h5>
+                <img src="question22.jpg" alt="Image for Question 22"><br>
+                <input type="radio" name="question2" value="a">a) Option a<br>
+                <input type="radio" name="question2" value="b">b) Option b<br>
+                <input type="radio" name="question2" value="c">c) Option c<br>
+                <input type="radio" name="question2" value="d">d) Option d<br>
+                <input type="radio" name="question2" value="" class="clearSelection">Clear Selection<br> <!-- Option for clearing selection -->
+                <div class="performanceSummary" id="question22Performance"></div> <!-- Div for displaying performance summary -->
+            </li>
+            <li>
+                <h5>Question 23</h5>
+                <img src="question23.jpg" alt="Image for Question 23"><br>
+                <input type="radio" name="question2" value="a">a) Option a<br>
+                <input type="radio" name="question2" value="b">b) Option b<br>
+                <input type="radio" name="question2" value="c">c) Option c<br>
+                <input type="radio" name="question2" value="d">d) Option d<br>
+                <input type="radio" name="question2" value="" class="clearSelection">Clear Selection<br> <!-- Option for clearing selection -->
+                <div class="performanceSummary" id="question23Performance"></div> <!-- Div for displaying performance summary -->
+            </li>
+            <li>
+                <h5>Question 24</h5>
+                <img src="question24.jpg" alt="Image for Question 24"><br>
+                <input type="radio" name="question2" value="a">a) Option a<br>
+                <input type="radio" name="question2" value="b">b) Option b<br>
+                <input type="radio" name="question2" value="c">c) Option c<br>
+                <input type="radio" name="question2" value="d">d) Option d<br>
+                <input type="radio" name="question2" value="" class="clearSelection">Clear Selection<br> <!-- Option for clearing selection -->
+                <div class="performanceSummary" id="question24Performance"></div> <!-- Div for displaying performance summary -->
+            </li>
+            <li>
+                <h5>Question 25</h5>
+                <img src="question25.jpg" alt="Image for Question 25"><br>
+                <input type="radio" name="question2" value="a">a) Option a<br>
+                <input type="radio" name="question2" value="b">b) Option b<br>
+                <input type="radio" name="question2" value="c">c) Option c<br>
+                <input type="radio" name="question2" value="d">d) Option d<br>
+                <input type="radio" name="question2" value="" class="clearSelection">Clear Selection<br> <!-- Option for clearing selection -->
+                <div class="performanceSummary" id="question25Performance"></div> <!-- Div for displaying performance summary -->
+            </li>
+            <h3>PART B</h3>
+            <p>ANSWER ANY 20 QUESTIONS</p>
+            <li>
+                <h5>Question 26</h5>
+                <img src="question26.jpg" alt="Image for Question 27"><br>
+                <input type="radio" name="question2" value="a">a) Option a<br>
+                <input type="radio" name="question2" value="b">b) Option b<br>
+                <input type="radio" name="question2" value="c">c) Option c<br>
+                <input type="radio" name="question2" value="d">d) Option d<br>
+                <input type="radio" name="question2" value="" class="clearSelection">Clear Selection<br> <!-- Option for clearing selection -->
+                <div class="performanceSummary" id="question26Performance"></div> <!-- Div for displaying performance summary -->
+            </li>
+            <li>
+                <h5>Question 27</h5>
+                <img src="question27.jpg" alt="Image for Question 27"><br>
+                <input type="radio" name="question2" value="a">a) Option a<br>
+                <input type="radio" name="question2" value="b">b) Option b<br>
+                <input type="radio" name="question2" value="c">c) Option c<br>
+                <input type="radio" name="question2" value="d">d) Option d<br>
+                <input type="radio" name="question2" value="" class="clearSelection">Clear Selection<br> <!-- Option for clearing selection -->
+                <div class="performanceSummary" id="question27Performance"></div> <!-- Div for displaying performance summary -->
+            </li>
+            <li>
+                <h5>Question 28</h5>
+                <img src="question28.jpg" alt="Image for Question 28"><br>
+                <input type="radio" name="question2" value="a">a) Option a<br>
+                <input type="radio" name="question2" value="b">b) Option b<br>
+                <input type="radio" name="question2" value="c">c) Option c<br>
+                <input type="radio" name="question2" value="d">d) Option d<br>
+                <input type="radio" name="question2" value="" class="clearSelection">Clear Selection<br> <!-- Option for clearing selection -->
+                <div class="performanceSummary" id="question28Performance"></div> <!-- Div for displaying performance summary -->
+            </li>
+            <li>
+                <h5>Question 29</h5>
+                <img src="question29.jpg" alt="Image for Question 29"><br>
+                <input type="radio" name="question2" value="a">a) Option a<br>
+                <input type="radio" name="question2" value="b">b) Option b<br>
+                <input type="radio" name="question2" value="c">c) Option c<br>
+                <input type="radio" name="question2" value="d">d) Option d<br>
+                <input type="radio" name="question2" value="" class="clearSelection">Clear Selection<br> <!-- Option for clearing selection -->
+                <div class="performanceSummary" id="question29Performance"></div> <!-- Div for displaying performance summary -->
+            </li>
+            <li>
+                <h5>Question 30</h5>
+                <img src="question30.jpg" alt="Image for Question 30"><br>
+                <input type="radio" name="question2" value="a">a) Option a<br>
+                <input type="radio" name="question2" value="b">b) Option b<br>
+                <input type="radio" name="question2" value="c">c) Option c<br>
+                <input type="radio" name="question2" value="d">d) Option d<br>
+                <input type="radio" name="question2" value="" class="clearSelection">Clear Selection<br> <!-- Option for clearing selection -->
+                <div class="performanceSummary" id="question30Performance"></div> <!-- Div for displaying performance summary -->
+            </li>
+            <li>
+                <h5>Question 31</h5>
+                <img src="question31.jpg" alt="Image for Question 31"><br>
+                <input type="radio" name="question2" value="a">a) Option a<br>
+                <input type="radio" name="question2" value="b">b) Option b<br>
+                <input type="radio" name="question2" value="c">c) Option c<br>
+                <input type="radio" name="question2" value="d">d) Option d<br>
+                <input type="radio" name="question2" value="" class="clearSelection">Clear Selection<br> <!-- Option for clearing selection -->
+                <div class="performanceSummary" id="question31Performance"></div> <!-- Div for displaying performance summary -->
+            </li>
+            <li>
+                <h5>Question 32</h5>
+                <img src="question32.jpg" alt="Image for Question 32"><br>
+                <input type="radio" name="question2" value="a">a) Option a<br>
+                <input type="radio" name="question2" value="b">b) Option b<br>
+                <input type="radio" name="question2" value="c">c) Option c<br>
+                <input type="radio" name="question2" value="d">d) Option d<br>
+                <input type="radio" name="question2" value="" class="clearSelection">Clear Selection<br> <!-- Option for clearing selection -->
+                <div class="performanceSummary" id="question32Performance"></div> <!-- Div for displaying performance summary -->
+            </li>
+            <li>
+                <h5>Question 33</h5>
+                <img src="question33.jpg" alt="Image for Question 33"><br>
+                <input type="radio" name="question2" value="a">a) Option a<br>
+                <input type="radio" name="question2" value="b">b) Option b<br>
+                <input type="radio" name="question2" value="c">c) Option c<br>
+                <input type="radio" name="question2" value="d">d) Option d<br>
+                <input type="radio" name="question2" value="" class="clearSelection">Clear Selection<br> <!-- Option for clearing selection -->
+                <div class="performanceSummary" id="question33Performance"></div> <!-- Div for displaying performance summary -->
+            </li>
+            <li>
+                <h5>Question 34</h5>
+                <img src="question34.jpg" alt="Image for Question 34"><br>
+                <input type="radio" name="question2" value="a">a) Option a<br>
+                <input type="radio" name="question2" value="b">b) Option b<br>
+                <input type="radio" name="question2" value="c">c) Option c<br>
+                <input type="radio" name="question2" value="d">d) Option d<br>
+                <input type="radio" name="question2" value="" class="clearSelection">Clear Selection<br> <!-- Option for clearing selection -->
+                <div class="performanceSummary" id="question34Performance"></div> <!-- Div for displaying performance summary -->
+            </li>
+            <li>
+                <h5>Question 35</h5>
+                <img src="question35.jpg" alt="Image for Question 35"><br>
+                <input type="radio" name="question2" value="a">a) Option a<br>
+                <input type="radio" name="question2" value="b">b) Option b<br>
+                <input type="radio" name="question2" value="c">c) Option c<br>
+                <input type="radio" name="question2" value="d">d) Option d<br>
+                <input type="radio" name="question2" value="" class="clearSelection">Clear Selection<br> <!-- Option for clearing selection -->
+                <div class="performanceSummary" id="question35Performance"></div> <!-- Div for displaying performance summary -->
+            </li>
+            <li>
+                <h5>Question 36</h5>
+                <img src="question36.jpg" alt="Image for Question 36"><br>
+                <input type="radio" name="question2" value="a">a) Option a<br>
+                <input type="radio" name="question2" value="b">b) Option b<br>
+                <input type="radio" name="question2" value="c">c) Option c<br>
+                <input type="radio" name="question2" value="d">d) Option d<br>
+                <input type="radio" name="question2" value="" class="clearSelection">Clear Selection<br> <!-- Option for clearing selection -->
+                <div class="performanceSummary" id="question36Performance"></div> <!-- Div for displaying performance summary -->
+            </li>
+            <li>
+                <h5>Question 37</h5>
+                <img src="question37.jpg" alt="Image for Question 37"><br>
+                <input type="radio" name="question2" value="a">a) Option a<br>
+                <input type="radio" name="question2" value="b">b) Option b<br>
+                <input type="radio" name="question2" value="c">c) Option c<br>
+                <input type="radio" name="question2" value="d">d) Option d<br>
+                <input type="radio" name="question2" value="" class="clearSelection">Clear Selection<br> <!-- Option for clearing selection -->
+                <div class="performanceSummary" id="question37Performance"></div> <!-- Div for displaying performance summary -->
+            </li>
+            <li>
+                <h5>Question 38</h5>
+                <img src="question38.jpg" alt="Image for Question 38"><br>
+                <input type="radio" name="question2" value="a">a) Option a<br>
+                <input type="radio" name="question2" value="b">b) Option b<br>
+                <input type="radio" name="question2" value="c">c) Option c<br>
+                <input type="radio" name="question2" value="d">d) Option d<br>
+                <input type="radio" name="question2" value="" class="clearSelection">Clear Selection<br> <!-- Option for clearing selection -->
+                <div class="performanceSummary" id="question38Performance"></div> <!-- Div for displaying performance summary -->
+            </li>
+            <li>
+                <h5>Question 39</h5>
+                <img src="question39.jpg" alt="Image for Question 39"><br>
+                <input type="radio" name="question2" value="a">a) Option a<br>
+                <input type="radio" name="question2" value="b">b) Option b<br>
+                <input type="radio" name="question2" value="c">c) Option c<br>
+                <input type="radio" name="question2" value="d">d) Option d<br>
+                <input type="radio" name="question2" value="" class="clearSelection">Clear Selection<br> <!-- Option for clearing selection -->
+                <div class="performanceSummary" id="question39Performance"></div> <!-- Div for displaying performance summary -->
+            </li>
+            <li>
+                <h5>Question 40</h5>
+                <img src="question40.jpg" alt="Image for Question 40"><br>
+                <input type="radio" name="question2" value="a">a) Option a<br>
+                <input type="radio" name="question2" value="b">b) Option b<br>
+                <input type="radio" name="question2" value="c">c) Option c<br>
+                <input type="radio" name="question2" value="d">d) Option d<br>
+                <input type="radio" name="question2" value="" class="clearSelection">Clear Selection<br> <!-- Option for clearing selection -->
+                <div class="performanceSummary" id="question40Performance"></div> <!-- Div for displaying performance summary -->
+            </li>
+            <li>
+                <h5>Question 41</h5>
+                <img src="question41.jpg" alt="Image for Question 41"><br>
+                <input type="radio" name="question2" value="a">a) Option a<br>
+                <input type="radio" name="question2" value="b">b) Option b<br>
+                <input type="radio" name="question2" value="c">c) Option c<br>
+                <input type="radio" name="question2" value="d">d) Option d<br>
+                <input type="radio" name="question2" value="" class="clearSelection">Clear Selection<br> <!-- Option for clearing selection -->
+                <div class="performanceSummary" id="question41Performance"></div> <!-- Div for displaying performance summary -->
+            </li>
+            <li>
+                <h5>Question 42</h5>
+                <img src="question42.jpg" alt="Image for Question 42"><br>
+                <input type="radio" name="question2" value="a">a) Option a<br>
+                <input type="radio" name="question2" value="b">b) Option b<br>
+                <input type="radio" name="question2" value="c">c) Option c<br>
+                <input type="radio" name="question2" value="d">d) Option d<br>
+                <input type="radio" name="question2" value="" class="clearSelection">Clear Selection<br> <!-- Option for clearing selection -->
+                <div class="performanceSummary" id="question42Performance"></div> <!-- Div for displaying performance summary -->
+            </li>
+            <li>
+                <h5>Question 43</h5>
+                <img src="question43.jpg" alt="Image for Question 43"><br>
+                <input type="radio" name="question2" value="a">a) Option a<br>
+                <input type="radio" name="question2" value="b">b) Option b<br>
+                <input type="radio" name="question2" value="c">c) Option c<br>
+                <input type="radio" name="question2" value="d">d) Option d<br>
+                <input type="radio" name="question2" value="" class="clearSelection">Clear Selection<br> <!-- Option for clearing selection -->
+                <div class="performanceSummary" id="question43Performance"></div> <!-- Div for displaying performance summary -->
+            </li>
+            <li>
+                <h5>Question 44</h5>
+                <img src="question44.jpg" alt="Image for Question 44"><br>
+                <input type="radio" name="question2" value="a">a) Option a<br>
+                <input type="radio" name="question2" value="b">b) Option b<br>
+                <input type="radio" name="question2" value="c">c) Option c<br>
+                <input type="radio" name="question2" value="d">d) Option d<br>
+                <input type="radio" name="question2" value="" class="clearSelection">Clear Selection<br> <!-- Option for clearing selection -->
+                <div class="performanceSummary" id="question44Performance"></div> <!-- Div for displaying performance summary -->
+            </li>
+            <li>
+                <h5>Question 45</h5>
+                <img src="question45.jpg" alt="Image for Question 45"><br>
+                <input type="radio" name="question2" value="a">a) Option a<br>
+                <input type="radio" name="question2" value="b">b) Option b<br>
+                <input type="radio" name="question2" value="c">c) Option c<br>
+                <input type="radio" name="question2" value="d">d) Option d<br>
+                <input type="radio" name="question2" value="" class="clearSelection">Clear Selection<br> <!-- Option for clearing selection -->
+                <div class="performanceSummary" id="question45Performance"></div> <!-- Div for displaying performance summary -->
+            </li>
+            <h3>PART C</h3>
+            <p>ANSWER ANY 20 QUESTIONS</p>
+            <li>
+                <h5>Question 46</h5>
+                <img src="question46.jpg" alt="Image for Question 46"><br>
+                <input type="radio" name="question46" value="a">a) Option a<br>
+                <input type="radio" name="question46" value="b">b) Option b<br>
+                <input type="radio" name="question46" value="c">c) Option c<br>
+                <input type="radio" name="question46" value="d">d) Option d<br>
+                <input type="radio" name="question46" value="" class="clearSelection">Clear Selection<br>
+                <div class="performanceSummary" id="question46Performance"></div>
+            </li>
+            <li>
+                <h5>Question 47</h5>
+                <img src="question47.jpg" alt="Image for Question 47"><br>
+                <input type="radio" name="question47" value="a">a) Option a<br>
+                <input type="radio" name="question47" value="b">b) Option b<br>
+                <input type="radio" name="question47" value="c">c) Option c<br>
+                <input type="radio" name="question47" value="d">d) Option d<br>
+                <input type="radio" name="question47" value="" class="clearSelection">Clear Selection<br>
+                <div class="performanceSummary" id="question47Performance"></div>
+            </li>
+            <li>
+                <h5>Question 48</h5>
+                <img src="question48.jpg" alt="Image for Question 48"><br>
+                <input type="radio" name="question48" value="a">a) Option a<br>
+                <input type="radio" name="question48" value="b">b) Option b<br>
+                <input type="radio" name="question48" value="c">c) Option c<br>
+                <input type="radio" name="question48" value="d">d) Option d<br>
+                <input type="radio" name="question48" value="" class="clearSelection">Clear Selection<br>
+                <div class="performanceSummary" id="question48Performance"></div>
+            </li>
+            <li>
+                <h5>Question 49</h5>
+                <img src="question49.jpg" alt="Image for Question 49"><br>
+                <input type="radio" name="question49" value="a">a) Option a<br>
+                <input type="radio" name="question49" value="b">b) Option b<br>
+                <input type="radio" name="question49" value="c">c) Option c<br>
+                <input type="radio" name="question49" value="d">d) Option d<br>
+                <input type="radio" name="question49" value="" class="clearSelection">Clear Selection<br>
+                <div class="performanceSummary" id="question49Performance"></div>
+            </li>
+            <li>
+                <h5>Question 50</h5>
+                <img src="question50.jpg" alt="Image for Question 50"><br>
+                <input type="radio" name="question50" value="a">a) Option a<br>
+                <input type="radio" name="question50" value="b">b) Option b<br>
+                <input type="radio" name="question50" value="c">c) Option c<br>
+                <input type="radio" name="question50" value="d">d) Option d<br>
+                <input type="radio" name="question50" value="" class="clearSelection">Clear Selection<br>
+                <div class="performanceSummary" id="question50Performance"></div>
+            </li>
+            <li>
+                <h5>Question 51</h5>
+                <img src="question51.jpg" alt="Image for Question 51"><br>
+                <input type="radio" name="question51" value="a">a) Option a<br>
+                <input type="radio" name="question51" value="b">b) Option b<br>
+                <input type="radio" name="question51" value="c">c) Option c<br>
+                <input type="radio" name="question51" value="d">d) Option d<br>
+                <input type="radio" name="question51" value="" class="clearSelection">Clear Selection<br>
+                <div class="performanceSummary" id="question51Performance"></div>
+            </li>
+            <li>
+                <h5>Question 52</h5>
+                <img src="question52.jpg" alt="Image for Question 52"><br>
+                <input type="radio" name="question52" value="a">a) Option a<br>
+                <input type="radio" name="question52" value="b">b) Option b<br>
+                <input type="radio" name="question52" value="c">c) Option c<br>
+                <input type="radio" name="question52" value="d">d) Option d<br>
+                <input type="radio" name="question52" value="" class="clearSelection">Clear Selection<br>
+                <div class="performanceSummary" id="question52Performance"></div>
+            </li>
+            <li>
+                <h5>Question 53</h5>
+                <img src="question53.jpg" alt="Image for Question 53"><br>
+                <input type="radio" name="question53" value="a">a) Option a<br>
+                <input type="radio" name="question53" value="b">b) Option b<br>
+                <input type="radio" name="question53" value="c">c) Option c<br>
+                <input type="radio" name="question53" value="d">d) Option d<br>
+                <input type="radio" name="question53" value="" class="clearSelection">Clear Selection<br>
+                <div class="performanceSummary" id="question53Performance"></div>
+            </li>
+            <li>
+                <h5>Question 54</h5>
+                <img src="question54.jpg" alt="Image for Question 54"><br>
+                <input type="radio" name="question54" value="a">a) Option a<br>
+                <input type="radio" name="question54" value="b">b) Option b<br>
+                <input type="radio" name="question54" value="c">c) Option c<br>
+                <input type="radio" name="question54" value="d">d) Option d<br>
+                <input type="radio" name="question54" value="" class="clearSelection">Clear Selection<br>
+                <div class="performanceSummary" id="question54Performance"></div>
+            </li>
+            <li>
+                <h5>Question 55</h5>
+                <img src="question55.jpg" alt="Image for Question 55"><br>
+                <input type="radio" name="question55" value="a">a) Option a<br>
+                <input type="radio" name="question55" value="b">b) Option b<br>
+                <input type="radio" name="question55" value="c">c) Option c<br>
+                <input type="radio" name="question55" value="d">d) Option d<br>
+                <input type="radio" name="question55" value="" class="clearSelection">Clear Selection<br>
+                <div class="performanceSummary" id="question55Performance"></div>
+            </li>
+            <li>
+                <h5>Question 56</h5>
+                <img src="question56.jpg" alt="Image for Question 56"><br>
+                <input type="radio" name="question56" value="a">a) Option a<br>
+                <input type="radio" name="question56" value="b">b) Option b<br>
+                <input type="radio" name="question56" value="c">c) Option c<br>
+                <input type="radio" name="question56" value="d">d) Option d<br>
+                <input type="radio" name="question56" value="" class="clearSelection">Clear Selection<br>
+                <div class="performanceSummary" id="question56Performance"></div>
+            </li>
+            <li>
+                <h5>Question 57</h5>
+                <img src="question57.jpg" alt="Image for Question 57"><br>
+                <input type="radio" name="question57" value="a">a) Option a<br>
+                <input type="radio" name="question57" value="b">b) Option b<br>
+                <input type="radio" name="question57" value="c">c) Option c<br>
+                <input type="radio" name="question57" value="d">d) Option d<br>
+                <input type="radio" name="question57" value="" class="clearSelection">Clear Selection<br>
+                <div class="performanceSummary" id="question57Performance"></div>
+            </li>
+            <li>
+                <h5>Question 58</h5>
+                <img src="question58.jpg" alt="Image for Question 58"><br>
+                <input type="radio" name="question58" value="a">a) Option a<br>
+                <input type="radio" name="question58" value="b">b) Option b<br>
+                <input type="radio" name="question58" value="c">c) Option c<br>
+                <input type="radio" name="question58" value="d">d) Option d<br>
+                <input type="radio" name="question58" value="" class="clearSelection">Clear Selection<br>
+                <div class="performanceSummary" id="question58Performance"></div>
+            </li>
+            <li>
+                <h5>Question 59</h5>
+                <img src="question59.jpg" alt="Image for Question 59"><br>
+                <input type="radio" name="question59" value="a">a) Option a<br>
+                <input type="radio" name="question59" value="b">b) Option b<br>
+                <input type="radio" name="question59" value="c">c) Option c<br>
+                <input type="radio" name="question59" value="d">d) Option d<br>
+                <input type="radio" name="question59" value="" class="clearSelection">Clear Selection<br>
+                <div class="performanceSummary" id="question59Performance"></div>
+            </li>
+            <li>
+                <h5>Question 60</h5>
+                <img src="question60.jpg" alt="Image for Question 60"><br>
+                <input type="radio" name="question60" value="a">a) Option a<br>
+                <input type="radio" name="question60" value="b">b) Option b<br>
+                <input type="radio" name="question60" value="c">c) Option c<br>
+                <input type="radio" name="question60" value="d">d) Option d<br>
+                <input type="radio" name="question60" value="" class="clearSelection">Clear Selection<br>
+                <div class="performanceSummary" id="question60Performance"></div>
+            </li>
+            <li>
+                <h5>Question 61</h5>
+                <img src="question61.jpg" alt="Image for Question 61"><br>
+                <input type="radio" name="question61" value="a">a) Option a<br>
+                <input type="radio" name="question61" value="b">b) Option b<br>
+                <input type="radio" name="question61" value="c">c) Option c<br>
+                <input type="radio" name="question61" value="d">d) Option d<br>
+                <input type="radio" name="question61" value="" class="clearSelection">Clear Selection<br>
+                <div class="performanceSummary" id="question61Performance"></div>
+            </li>
+            <li>
+                <h5>Question 62</h5>
+                <img src="question62.jpg" alt="Image for Question 62"><br>
+                <input type="radio" name="question62" value="a">a) Option a<br>
+                <input type="radio" name="question62" value="b">b) Option b<br>
+                <input type="radio" name="question62" value="c">c) Option c<br>
+                <input type="radio" name="question62" value="d">d) Option d<br>
+                <input type="radio" name="question62" value="" class="clearSelection">Clear Selection<br>
+                <div class="performanceSummary" id="question62Performance"></div>
+            </li>
+            <li>
+                <h5>Question 63</h5>
+                <img src="question63.jpg" alt="Image for Question 63"><br>
+                <input type="radio" name="question63" value="a">a) Option a<br>
+                <input type="radio" name="question63" value="b">b) Option b<br>
+                <input type="radio" name="question63" value="c">c) Option c<br>
+                <input type="radio" name="question63" value="d">d) Option d<br>
+                <input type="radio" name="question63" value="" class="clearSelection">Clear Selection<br>
+                <div class="performanceSummary" id="question63Performance"></div>
+            </li>
+            <li>
+                <h5>Question 64</h5>
+                <img src="question64.jpg" alt="Image for Question 64"><br>
+                <input type="radio" name="question64" value="a">a) Option a<br>
+                <input type="radio" name="question64" value="b">b) Option b<br>
+                <input type="radio" name="question64" value="c">c) Option c<br>
+                <input type="radio" name="question64" value="d">d) Option d<br>
+                <input type="radio" name="question64" value="" class="clearSelection">Clear Selection<br>
+                <div class="performanceSummary" id="question64Performance"></div>
+            </li>
+            <li>
+                <h5>Question 65</h5>
+                <img src="question65.jpg" alt="Image for Question 65"><br>
+                <input type="radio" name="question65" value="a">a) Option a<br>
+                <input type="radio" name="question65" value="b">b) Option b<br>
+                <input type="radio" name="question65" value="c">c) Option c<br>
+                <input type="radio" name="question65" value="d">d) Option d<br>
+                <input type="radio" name="question65" value="" class="clearSelection">Clear Selection<br>
+                <div class="performanceSummary" id="question65Performance"></div>
+            </li>
+            <li>
+                <h5>Question 66</h5>
+                <img src="question66.jpg" alt="Image for Question 66"><br>
+                <input type="radio" name="question66" value="a">a) Option a<br>
+                <input type="radio" name="question66" value="b">b) Option b<br>
+                <input type="radio" name="question66" value="c">c) Option c<br>
+                <input type="radio" name="question66" value="d">d) Option d<br>
+                <input type="radio" name="question66" value="" class="clearSelection">Clear Selection<br>
+                <div class="performanceSummary" id="question66Performance"></div>
+            </li>
+            <li>
+                <h5>Question 67</h5>
+                <img src="question67.jpg" alt="Image for Question 67"><br>
+                <input type="radio" name="question67" value="a">a) Option a<br>
+                <input type="radio" name="question67" value="b">b) Option b<br>
+                <input type="radio" name="question67" value="c">c) Option c<br>
+                <input type="radio" name="question67" value="d">d) Option d<br>
+                <input type="radio" name="question67" value="" class="clearSelection">Clear Selection<br>
+                <div class="performanceSummary" id="question67Performance"></div>
+            </li>
+            <li>
+                <h5>Question 68</h5>
+                <img src="question68.jpg" alt="Image for Question 68"><br>
+                <input type="radio" name="question68" value="a">a) Option a<br>
+                <input type="radio" name="question68" value="b">b) Option b<br>
+                <input type="radio" name="question68" value="c">c) Option c<br>
+                <input type="radio" name="question68" value="d">d) Option d<br>
+                <input type="radio" name="question68" value="" class="clearSelection">Clear Selection<br>
+                <div class="performanceSummary" id="question68Performance"></div>
+            </li>
+            <li>
+                <h5>Question 69</h5>
+                <img src="question69.jpg" alt="Image for Question 69"><br>
+                <input type="radio" name="question69" value="a">a) Option a<br>
+                <input type="radio" name="question69" value="b">b) Option b<br>
+                <input type="radio" name="question69" value="c">c) Option c<br>
+                <input type="radio" name="question69" value="d">d) Option d<br>
+                <input type="radio" name="question69" value="" class="clearSelection">Clear Selection<br>
+                <div class="performanceSummary" id="question69Performance"></div>
+            </li>
+            <li>
+                <h5>Question 70</h5>
+                <img src="question70.jpg" alt="Image for Question 70"><br>
+                <input type="radio" name="question70" value="a">a) Option a<br>
+                <input type="radio" name="question70" value="b">b) Option b<br>
+                <input type="radio" name="question70" value="c">c) Option c<br>
+                <input type="radio" name="question70" value="d">d) Option d<br>
+                <input type="radio" name="question70" value="" class="clearSelection">Clear Selection<br>
+                <div class="performanceSummary" id="question70Performance"></div>
+            </li>
+            <li>
+                <h5>Question 71</h5>
+                <img src="question71.jpg" alt="Image for Question 71"><br>
+                <input type="radio" name="question71" value="a">a) Option a<br>
+                <input type="radio" name="question71" value="b">b) Option b<br>
+                <input type="radio" name="question71" value="c">c) Option c<br>
+                <input type="radio" name="question71" value="d">d) Option d<br>
+                <input type="radio" name="question71" value="" class="clearSelection">Clear Selection<br>
+                <div class="performanceSummary" id="question71Performance"></div>
+            </li>
+            <li>
+                <h5>Question 72</h5>
+                <img src="question72.jpg" alt="Image for Question 72"><br>
+                <input type="radio" name="question72" value="a">a) Option a<br>
+                <input type="radio" name="question72" value="b">b) Option b<br>
+                <input type="radio" name="question72" value="c">c) Option c<br>
+                <input type="radio" name="question72" value="d">d) Option d<br>
+                <input type="radio" name="question72" value="" class="clearSelection">Clear Selection<br>
+                <div class="performanceSummary" id="question72Performance"></div>
+            </li>
+            <li>
+                <h5>Question 73</h5>
+                <img src="question73.jpg" alt="Image for Question 73"><br>
+                <input type="radio" name="question73" value="a">a) Option a<br>
+                <input type="radio" name="question73" value="b">b) Option b<br>
+                <input type="radio" name="question73" value="c">c) Option c<br>
+                <input type="radio" name="question73" value="d">d) Option d<br>
+                <input type="radio" name="question73" value="" class="clearSelection">Clear Selection<br>
+                <div class="performanceSummary" id="question73Performance"></div>
+            </li>
+            <li>
+                <h5>Question 74</h5>
+                <img src="question74.jpg" alt="Image for Question 74"><br>
+                <input type="radio" name="question74" value="a">a) Option a<br>
+                <input type="radio" name="question74" value="b">b) Option b<br>
+                <input type="radio" name="question74" value="c">c) Option c<br>
+                <input type="radio" name="question74" value="d">d) Option d<br>
+                <input type="radio" name="question74" value="" class="clearSelection">Clear Selection<br>
+                <div class="performanceSummary" id="question74Performance"></div>
+            </li>
+            <li>
+                <h5>Question 75</h5>
+                <img src="question75.jpg" alt="Image for Question 75"><br>
+                <input type="radio" name="question75" value="a">a) Option a<br>
+                <input type="radio" name="question75" value="b">b) Option b<br>
+                <input type="radio" name="question75" value="c">c) Option c<br>
+                <input type="radio" name="question75" value="d">d) Option d<br>
+                <input type="radio" name="question75" value="" class="clearSelection">Clear Selection<br>
+                <div class="performanceSummary" id="question75Performance"></div>
+            </li>
+            <!-- Add more questions here -->
+        </ol>
+        <input type="submit" value="Submit" style="display:none;"> <!-- Hide the submit button -->
+    </form>
+    
+    <script>
+        // JavaScript code for handling clearing selection
+        document.querySelectorAll('.clearSelection').forEach(function(element) {
+            element.addEventListener('click', function() {
+                this.checked = false; // Clear the selection
+            });
+        });
+
+        // Countdown Timer
+        var totalTime = 10800; // Total time in seconds (2 minutes)
+        var timerDisplay = document.getElementById('timer');
+
+        function updateTimer() {
+            var minutes = Math.floor(totalTime / 60);
+            var seconds = totalTime % 60;
+
+            timerDisplay.textContent = 'Time Left: ' + minutes + 'm ' + seconds + 's';
+
+            if (totalTime <= 0) {
+                clearInterval(timerInterval);
+                timerDisplay.textContent = 'Time Up!';
+                submitTest(); // Automatically submit the form when time's up
+            } else {
+                totalTime--;
+            }
+        }
+
+        // Call updateTimer every second
+        var timerInterval = setInterval(updateTimer, 1000);
+
+        // Function to submit the test
+        function submitTest() {
+            clearInterval(timerInterval); // Stop the timer
+            calculateScore(); // Calculate and display score
+        }
+
+        // Function to calculate and display score
+function calculateScore() {
+    // Collect user answers
+    var answers = {
+        'question1': getSelectedValue('question1'),
+        'question2': getSelectedValue('question2'),
+        'question3': getSelectedValue('question3'),
+        'question4': getSelectedValue('question4'),
+        'question5': getSelectedValue('question5'),
+        'question6': getSelectedValue('question6'),
+        'question7': getSelectedValue('question7'),
+        'question8': getSelectedValue('question8'),
+        'question9': getSelectedValue('question9'),
+        'question10': getSelectedValue('question10'),
+        'question11': getSelectedValue('question11'),
+        'question12': getSelectedValue('question12'),
+        'question13': getSelectedValue('question13'),
+        'question14': getSelectedValue('question14'),
+        'question15': getSelectedValue('question15'),
+        'question16': getSelectedValue('question16'),
+        'question17': getSelectedValue('question17'),
+        'question18': getSelectedValue('question18'),
+        'question19': getSelectedValue('question19'),
+        'question20': getSelectedValue('question20'),
+        'question21': getSelectedValue('question21'),
+        'question22': getSelectedValue('question22'),
+        'question23': getSelectedValue('question23'),
+        'question24': getSelectedValue('question24'),
+        'question25': getSelectedValue('question25'),
+        'question26': getSelectedValue('question26'),
+        'question27': getSelectedValue('question27'),
+        'question28': getSelectedValue('question28'),
+        'question29': getSelectedValue('question29'),
+        'question30': getSelectedValue('question30'),
+        'question31': getSelectedValue('question31'),
+        'question32': getSelectedValue('question32'),
+        'question33': getSelectedValue('question33'),
+        'question34': getSelectedValue('question34'),
+        'question35': getSelectedValue('question35'),
+        'question36': getSelectedValue('question36'),
+        'question37': getSelectedValue('question37'),
+        'question38': getSelectedValue('question38'),
+        'question39': getSelectedValue('question39'),
+        'question40': getSelectedValue('question40'),
+        'question41': getSelectedValue('question41'),
+        'question42': getSelectedValue('question42'),
+        'question43': getSelectedValue('question43'),
+        'question44': getSelectedValue('question44'),
+        'question45': getSelectedValue('question45'),
+        'question46': getSelectedValue('question46'),
+    'question47': getSelectedValue('question47'),
+    'question48': getSelectedValue('question48'),
+    'question49': getSelectedValue('question49'),
+    'question50': getSelectedValue('question50'),
+    'question51': getSelectedValue('question51'),
+    'question52': getSelectedValue('question52'),
+    'question53': getSelectedValue('question53'),
+    'question54': getSelectedValue('question54'),
+    'question55': getSelectedValue('question55'),
+    'question56': getSelectedValue('question56'),
+    'question57': getSelectedValue('question57'),
+    'question58': getSelectedValue('question58'),
+    'question59': getSelectedValue('question59'),
+    'question60': getSelectedValue('question60'),
+    'question61': getSelectedValue('question61'),
+    'question62': getSelectedValue('question62'),
+    'question63': getSelectedValue('question63'),
+    'question64': getSelectedValue('question64'),
+    'question65': getSelectedValue('question65'),
+    'question66': getSelectedValue('question66'),
+    'question67': getSelectedValue('question67'),
+    'question68': getSelectedValue('question68'),
+    'question69': getSelectedValue('question69'),
+    'question70': getSelectedValue('question70'),
+    'question71': getSelectedValue('question71'),
+    'question72': getSelectedValue('question72'),
+    'question73': getSelectedValue('question73'),
+    'question74': getSelectedValue('question74'),
+    'question75': getSelectedValue('question75')
+    };
+
+    // Initialize variables to store user performance and correct answers
+    var performance = {};
+
+    var correctAnswers = {
+        'question1': 'b',
+        'question2': 'a',
+        'question3': 'b',
+        'question4': 'c',
+        'question5': 'd',
+        'question6': 'c',
+        'question7': 'a',
+        'question8': 'c',
+        'question9': 'd',
+        'question10': 'd',
+        'question11': 'c',
+        'question12': 'b',
+        'question13': 'b',
+        'question14': 'b',
+        'question15': 'c',
+        'question16': 'c',
+        'question17': 'b',
+        'question18': 'a',
+        'question19': 'a',
+        'question20': 'd',
+        'question21': 'a',
+        'question22': 'b',
+        'question23': 'b',
+        'question24': 'b',
+        'question25': 'b',
+        'question26': 'b',
+        'question27': 'd',
+        'question28': 'c',
+        'question29': 'b',
+        'question30': 'c',
+        'question31': 'd',
+        'question32': 'd',
+        'question33': 'd',
+        'question34': 'c',
+        'question35': 'a',
+        'question36': 'a',
+        'question37': 'b',
+        'question38': 'd',
+        'question39': 'c',
+        'question40': 'd',
+        'question41': 'a',
+        'question42': 'b',
+        'question43': 'c',
+        'question44': 'c',
+        'question45': 'c',
+    'question46': 'd',
+    'question47': 'a',
+    'question48': 'b',
+    'question49': 'c',
+    'question50': 'c',
+    'question51': 'd',
+    'question52': 'd',
+    'question53': 'b',
+    'question54': 'a',
+    'question55': 'b',
+    'question56': 'a',
+    'question57': 'b',
+    'question58': 'd',
+    'question59': 'd',
+    'question60': 'd',
+    'question61': 'b',
+    'question62': 'c',
+    'question63': 'b',
+    'question64': 'b',
+    'question65': 'a',
+    'question66': 'a',
+    'question67': 'c',
+    'question68': 'c',
+    'question69': 'd',
+    'question70': 'b',
+    'question71': 'a',
+    'question72': 'b',
+    'question73': 'a',
+    'question74': 'a',
+    'question75': 'a'
+    };
+
+    // Check answers for questions
+    for (var question in correctAnswers) {
+        if (answers.hasOwnProperty(question)) {
+            if (answers[question] === correctAnswers[question]) {
+                performance[question] = 'Correct';
+            } else if (answers[question] === '') {
+                performance[question] = 'Not Attempted';
+            } else {
+                performance[question] = 'Incorrect';
+            }
+        }
+    }
+
+    // Display score
+    var score = 0;
+
+    for (var q in performance) {
+        if (performance[q] === 'Correct') {
+            score += 1;
+        } else if (performance[q] === 'Incorrect') {
+            score -= 0.5;
+        }
+    }
+
+    alert('Your score is: ' + score + '\n"Thanks for giving Test"');
+
+    // Display performance summary
+        for (var question in performance) {
+            var performanceDiv = document.getElementById(question + 'Performance');
+            if (performanceDiv) { // Check if the element exists
+                performanceDiv.textContent = 'Performance: ' + performance[question] + ', Correct Answer: ' + correctAnswers[question];
+            }
+        }
+    }
+
+
+
+        // Function to get the selected value from radio buttons
+        function getSelectedValue(question) {
+            var selectedValue = '';
+            var options = document.getElementsByName(question);
+            for (var i = 0; i < options.length; i++) {
+                if (options[i].checked) {
+                    selectedValue = options[i].value;
+                    break;
+                }
+            }
+            return selectedValue;
+        }
+    </script>
+</body>
+</html>
